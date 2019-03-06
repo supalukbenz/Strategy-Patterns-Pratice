@@ -1,4 +1,4 @@
-package flexible_cash_register;
+package cash_register;
 
 public class Main {
 
@@ -9,7 +9,6 @@ public class Main {
         registerPattern.recordPurchase(40);
         registerPattern.calculateTax();
         registerPattern.enterPayment(200);
-
         System.out.println(registerPattern.giveChange());
     }
 }

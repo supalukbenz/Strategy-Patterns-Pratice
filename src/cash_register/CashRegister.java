@@ -1,4 +1,4 @@
-package flexible_cash_register;
+package cash_register;
 
 public class CashRegister {
     private double purchase; // total amount of product price bought
@@ -29,5 +29,4 @@ public class CashRegister {
         payment = 0;
         return change;
     }
-
 }
